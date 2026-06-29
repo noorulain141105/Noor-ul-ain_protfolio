@@ -3,7 +3,7 @@
 Personal portfolio website built from scratch using HTML, CSS, and JavaScript.
 
 ## Live Site
-[View Portfolio](https://noorulain141105.github.io/portfolio)
+[View Portfolio](https://noorulain141105.github.io/Noor-ul-ain_protfolio/)
 
 ## Built With
 - Semantic HTML5
