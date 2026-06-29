@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noor-ul-ain M Ali — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <span class="nav-logo">N<span class="accent">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow mono">Software Engineering · FAST-NUCES · Batch 2028</p>
+      <h1 class="hero-name">Noor-ul-ain<br /><span class="accent">M Ali</span></h1>
+      <p class="hero-tagline">Building systems that think —<br/>from OS simulators to AI-powered apps.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="terminal-card">
+        <div class="terminal-bar">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="terminal-title mono">noor@fast:~$</span>
+        </div>
+        <div class="terminal-body mono" id="terminalBody"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-label mono">01 — About</p>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Who I am</h2>
+          <p>
+            I'm a 4th-semester Software Engineering student at FAST-NUCES (Chiniot-Faisalabad),
+            passionate about building real-world systems across operating systems, databases,
+            data analytics, and full-stack web development.
+          </p>
+          <p>
+            I thrive at the intersection of theory and implementation — from designing
+            multi-process OS simulators in C++ to building data-driven forecasting
+            web apps in Python and R. My projects are collaborative and shipped.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number accent">10+</span>
+              <span class="stat-label mono">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number accent">4th</span>
+              <span class="stat-label mono">Semester</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number accent">6+</span>
+              <span class="stat-label mono">Languages</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-info">
+          <div class="info-card">
+            <p class="info-label mono">University</p>
+            <p class="info-value">FAST-NUCES, CF Campus</p>
+          </div>
+          <div class="info-card">
+            <p class="info-label mono">Program</p>
+            <p class="info-value">BS Software Engineering</p>
+          </div>
+          <div class="info-card">
+            <p class="info-label mono">Student ID</p>
+            <p class="info-value mono">24F-3110</p>
+          </div>
+          <div class="info-card">
+            <p class="info-label mono">Class</p>
+            <p class="info-value">BSE-4B</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <p class="section-label mono">02 — Skills</p>
+      <h2>Technical Stack</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <p class="skill-category mono">Languages</p>
+          <div class="skill-tags">
+            <span class="tag">C++</span>
+            <span class="tag">Python</span>
+            <span class="tag">Java</span>
+            <span class="tag">SQL</span>
+            <span class="tag">R</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML/CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-category mono">Frameworks & Tools</p>
+          <div class="skill-tags">
+            <span class="tag">Flask</span>
+            <span class="tag">customtkinter</span>
+            <span class="tag">Git & GitHub</span>
+            <span class="tag">VMware / Linux</span>
+            <span class="tag">Eclipse IDE</span>
+            <span class="tag">draw.io</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-category mono">Core Concepts</p>
+          <div class="skill-tags">
+            <span class="tag">Operating Systems</span>
+            <span class="tag">Database Systems</span>
+            <span class="tag">Data Structures</span>
+            <span class="tag">OOP</span>
+            <span class="tag">MVP Architecture</span>
+            <span class="tag">Requirements Eng.</span>
+            <span class="tag">Software Design</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-category mono">Data & Analytics</p>
+          <div class="skill-tags">
+            <span class="tag">Statistical Modeling</span>
+            <span class="tag">Regression Analysis</span>
+            <span class="tag">Data Visualization</span>
+            <span class="tag">Probability Theory</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="section-label mono">03 — Projects</p>
+      <h2>What I've Built</h2>
+
+      <div class="projects-grid">
+
+        <!-- 1 -->
+        <div class="project-card featured">
+          <div class="project-header">
+            <span class="project-num mono">01</span>
+            <div class="project-tags">
+              <span class="tag tag-sm">C++</span>
+              <span class="tag tag-sm">Python</span>
+              <span class="tag tag-sm">Linux</span>
+            </div>
+          </div>
+          <h3>NovaSLN OS Simulator</h3>
+          <p>A full multi-process operating system simulator built in C++ on VMware Ubuntu. Features MLFQ scheduling, process synchronization, inter-process communication, a resource monitor, digital clock, calendar, and calculator utility — all wrapped in a Python GUI via <code>customtkinter</code> with a pty-based subprocess interface.</p>
+          <div class="project-footer">
+            <span class="project-course mono">Operating Systems · SE-4B</span>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-num mono">02</span>
+            <div class="project-tags">
+              <span class="tag tag-sm">Python</span>
+              <span class="tag tag-sm">R</span>
+              <span class="tag tag-sm">Flask</span>
+            </div>
+          </div>
+          <h3>Air Quality Statistical Analysis</h3>
+          <p>Data-driven forecasting system for Lahore's air pollution (AQI). Includes confidence interval analysis, regression modeling, probability distributions, and a web application dashboard built with Flask and R for statistical computation.</p>
+          <div class="project-footer">
+            <span class="project-course mono">Probability & Statistics</span>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-num mono">03</span>
+            <div class="project-tags">
+              <span class="tag tag-sm">Web</span>
+              <span class="tag tag-sm">SRE</span>
+              <span class="tag tag-sm">DFD</span>
+            </div>
+          </div>
+          <h3>Smart Interview & Queue System</h3>
+          <p>A web-based scheduling and queue automation platform for interview management. Covers full requirements lifecycle — functional & non-functional specifications, Level 1 DFDs, interaction matrices, and SRS documentation across multiple phases.</p>
+          <div class="project-footer">
+            <span class="project-course mono">Software Requirements Engineering</span>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-num mono">04</span>
+            <div class="project-tags">
+              <span class="tag tag-sm">Java</span>
+              <span class="tag tag-sm">MVP</span>
+              <span class="tag tag-sm">AWT</span>
+            </div>
+          </div>
+          <h3>Store App — MVP Architecture Refactor</h3>
+          <p>Refactored a legacy Java 7 AWT store application into a clean MVP (Model-View-Presenter) architecture. Produced five complete Java source files, a UML component diagram, and a packaged deliverable — demonstrating separation of concerns and design pattern application.</p>
+          <div class="project-footer">
+            <span class="project-course mono">Software Design & Architecture</span>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-num mono">05</span>
+            <div class="project-tags">
+              <span class="tag tag-sm">SQL</span>
+              <span class="tag tag-sm">PL/SQL</span>
+              <span class="tag tag-sm">ERD</span>
+            </div>
+          </div>
+          <h3>Real Estate Management System</h3>
+          <p>Full-stack database project for real estate management including EERD/ERD design, normalized schema implementation in SQL, PL/SQL stored procedures and triggers, and a complete web frontend with HTML/CSS/JS for property listings, admin management, and tenant portals.</p>
+          <div class="project-footer">
+            <span class="project-course mono">Database Systems</span>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-num mono">06</span>
+            <div class="project-tags">
+              <span class="tag tag-sm">C++</span>
+              <span class="tag tag-sm">DSA</span>
+              <span class="tag tag-sm">AVL Tree</span>
+            </div>
+          </div>
+          <h3>Air Traffic Control Simulator</h3>
+          <p>Data structures project simulating an air traffic control system using AVL trees for flight scheduling, hash tables for aircraft lookup, graphs for collision avoidance routing, and a collision detection algorithm — built entirely in C++.</p>
+          <div class="project-footer">
+            <span class="project-course mono">Data Structures & Algorithms</span>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-num mono">07</span>
+            <div class="project-tags">
+              <span class="tag tag-sm">C++</span>
+              <span class="tag tag-sm">OOP</span>
+              <span class="tag tag-sm">Game Dev</span>
+            </div>
+          </div>
+          <h3>AI Kingdom — Strategy Game</h3>
+          <p>A terminal-based strategy simulation game in C++ with full OOP design. Features army management, economy & banking systems, diplomacy, conflict resolution, and event-driven AI kingdom simulation across two development phases.</p>
+          <div class="project-footer">
+            <span class="project-course mono">Object-Oriented Programming</span>
+          </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-num mono">08</span>
+            <div class="project-tags">
+              <span class="tag tag-sm">HTML/CSS</span>
+              <span class="tag tag-sm">JavaScript</span>
+              <span class="tag tag-sm">Web</span>
+            </div>
+          </div>
+          <h3>Student Portal — ITSE</h3>
+          <p>A multi-role web portal with separate interfaces for students, teachers, and admins. Built with vanilla HTML, CSS, and JavaScript featuring local storage, dark/light mode toggle, role-based navigation, and responsive layouts for academic management.</p>
+          <div class="project-footer">
+            <span class="project-course mono">IT Skills & Ethics</span>
+          </div>
+        </div>
+
+        <!-- 9 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-num mono">09</span>
+            <div class="project-tags">
+              <span class="tag tag-sm">Discrete Math</span>
+              <span class="tag tag-sm">Logic</span>
+            </div>
+          </div>
+          <h3>Discrete Structures Project</h3>
+          <p>Applied discrete mathematics project covering formal logic, set theory, graph theory, and combinatorics — implemented and documented with algorithmic problem-solving in a structured academic format.</p>
+          <div class="project-footer">
+            <span class="project-course mono">Discrete Structures</span>
+          </div>
+        </div>
+
+        <!-- 10 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-num mono">10</span>
+            <div class="project-tags">
+              <span class="tag tag-sm">Network Security</span>
+              <span class="tag tag-sm">Firewall</span>
+            </div>
+          </div>
+          <h3>Cybersecurity Lab Modules</h3>
+          <p>Hands-on cybersecurity labs covering firewall classification, network packet analysis, penetration testing fundamentals, and security vulnerability assessment — focusing on practical application of network defense and offensive security techniques.</p>
+          <div class="project-footer">
+            <span class="project-course mono">Cybersecurity</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="container contact-container">
+      <p class="section-label mono">04 — Contact</p>
+      <h2>Let's Connect</h2>
+      <p class="contact-sub">Open to internship opportunities, collaborations, and interesting projects.</p>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/noor-ul-ain-m-ali-b9a369323" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="2" y="9" width="4" height="12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="4" cy="4" r="2" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div>
+            <p class="contact-label mono">LinkedIn</p>
+            <p class="contact-handle">noor-ul-ain-m-ali</p>
+          </div>
+          <svg class="arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+
+        <a href="https://github.com/noorulain141105" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div>
+            <p class="contact-label mono">GitHub</p>
+            <p class="contact-handle">noorulain141105</p>
+          </div>
+          <svg class="arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+
+        <a href="mailto:noorulain@example.com" class="contact-card">
+          <div class="contact-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div>
+            <p class="contact-label mono">Email</p>
+            <p class="contact-handle">24F-3110@lhr.nu.edu.pk</p>
+          </div>
+          <svg class="arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="mono">Noor-ul-ain M Ali · FAST-NUCES · 2024–2028</span>
+      <span class="mono footer-built">Built with HTML, CSS & JS</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
